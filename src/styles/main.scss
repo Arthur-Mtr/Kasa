@@ -1,16 +1,17 @@
 @import './variable.scss';
 
-@import "../layout/layout.scss";
+@import "../layout/Layout.scss";
 
-@import '../components/header/header.scss';
-@import "../components/footer/footer.scss";
-@import "../components//banner/banner.scss";
-@import "../components/card/card.scss";
+@import '../components/header/Header.scss';
+@import "../components/footer/Footer.scss";
+@import "../components//banner/Banner.scss";
+@import "../components/card/Card.scss";
+@import "../components/collapse/Collapse.scss";
 
-@import "../pages/about/about.scss";
-@import "../pages/error/error.scss";
-@import '../pages/home/home.scss';
-@import "../pages/logement/logement.scss";
+@import "../pages/about/About.scss";
+@import "../pages/error/Error.scss";
+@import '../pages/home/Home.scss';
+@import "../pages/logement/Logement.scss";
 
 
 
