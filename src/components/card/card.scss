@@ -5,6 +5,12 @@
     cursor: pointer;
     box-sizing: border-box;
 
+    @media (max-width: 480px) {
+        width: 100%;
+        height: 225px;
+        aspect-ratio: none;
+    }
+
 
     &__img {
         object-fit: cover;

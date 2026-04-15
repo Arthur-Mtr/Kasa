@@ -7,6 +7,8 @@
 @import "../components//banner/Banner.scss";
 @import "../components/card/Card.scss";
 @import "../components/collapse/Collapse.scss";
+@import "../components/carrousel/Carrousel.scss";
+@import "../components/informations/Informations.scss";
 
 @import "../pages/about/About.scss";
 @import "../pages/error/Error.scss";
@@ -32,5 +34,11 @@ body {
 }
 
 .container {
+    display: flex;
+    justify-content: center;
     margin: 0 100px;
+
+     @media (max-width: 480px) {
+        margin: 20px 20px 0 20px;
+     }
 }

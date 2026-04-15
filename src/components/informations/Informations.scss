@@ -1,0 +1,191 @@
+.informations-container {
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logement-header {
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+     @media (max-width: 480px) {
+        flex-direction: column;
+     }
+
+    &__left {
+        max-width: 1240px;
+        
+
+        &--title {
+            margin-bottom: 10px;
+        }
+
+        &--title h2 {
+            font-size: 36px;
+            font-weight: 500;
+            color: $color-primary;
+            margin: 0;
+            margin-bottom: 5px;
+
+             @media (max-width: 480px) {
+                font-size: 18px;
+             }
+        }
+
+        &--title p {
+            font-size: 18px;
+            font-weight: 500;
+            margin: 0;
+
+             @media (max-width: 480px) {
+                font-size: 14px;
+             }
+        }
+
+
+        &--tags {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            max-width: 1240px;
+            width: 100%;
+            margin-top: 15px;
+            margin-bottom: 25px;
+
+            & .box-tags {
+                max-width: 170px;
+                width: 100%;
+                height: 25px;
+                border-radius: 10px;
+                background-color: $color-primary;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 0;
+
+                 @media (max-width: 480px) {
+                    height: 25px;
+                    margin-bottom: 10px;
+                 }
+                
+                & span {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: white;
+                    white-space: nowrap;
+
+                     @media (max-width: 480px) {
+                        font-size: 10px;
+                     }
+                }
+            }
+        }
+    }
+
+
+    &__right {
+        
+         @media (max-width: 480px) {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: start;
+            justify-content: space-between;
+         }
+
+        &--top {
+            display: flex;
+            justify-content: right;
+            gap: 10px;
+            margin-bottom: 10px;
+
+             @media (max-width: 480px) {
+                margin: 0;
+                align-items: center;
+             }
+        }
+
+        &--name {
+            text-align: right;
+            max-width: 93px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+
+            & p {
+                font-size: 18px;
+                font-weight: 500;
+                color: $color-primary;
+                margin: 0;
+                max-width: 93px;
+
+                 @media (max-width: 480px) {
+                    font-size: 12px;
+                 }
+                
+            }
+        }
+
+        &--img {
+            width: 64px;
+            height: 64px;
+            border-radius: 50px;
+            overflow: hidden;
+
+             @media (max-width: 480px) {
+                width: 32px;
+                height: 32px;
+             }
+
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &--rates {
+            margin-bottom: 10px;
+
+             @media (max-width: 480px) {
+                margin: 0;
+                display: flex;
+                align-items: center;
+             }
+
+             & img {
+                 @media (max-width: 480px) {
+                    width: 18px;
+                    height: 18px;
+                 }
+             }
+        }
+    }
+}
+
+
+.logement-collapse {
+    display: flex;
+    gap: 76px;
+    margin-bottom: 20px;
+
+    & ul {
+        list-style: none;
+    }
+
+     @media (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-top: 10px;
+        margin-bottom: 0;
+     }
+}
+
+
+
+

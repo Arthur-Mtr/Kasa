@@ -1,0 +1,12 @@
+.logements-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1240px;
+    width: 100%;
+
+     @media (max-width: 480px) {
+        height: 100%;
+     }
+}
+
