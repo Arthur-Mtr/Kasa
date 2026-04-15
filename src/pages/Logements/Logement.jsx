@@ -1,9 +1,9 @@
 import { useParams, Navigate } from "react-router-dom"
-import imgTest from "../../assets/Carrousel-test.png"
+
 import logements from "../../data/logements.json"
 
-import Carrousel from "../../components/carrousel/Carrousel"
-import Informations from "../../components/informations/Informations"
+import Carrousel from "../../components/Carrousel/Carrousel"
+import Informations from "../../components/Informations/Informations"
 
 
 function Logement() {

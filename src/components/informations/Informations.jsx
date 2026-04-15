@@ -1,6 +1,6 @@
 import starInactive from "../../assets/star-inactive.png"
 import starActive from "../../assets/star-active.png"
-import Collapse from "../collapse/Collapse"
+import Collapse from "../Collapse/Collapse"
 
 function Informations({title, location, tags, host, rates, description, equipments}) {
 

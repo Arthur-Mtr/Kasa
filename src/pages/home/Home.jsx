@@ -1,5 +1,5 @@
-import Banner from "../../components/banner/Banner";
-import Card from "../../components/card/Card";
+import Banner from "../../components/Banner/Banner";
+import Card from "../../components/Card/Card";
 import logements from "../../data/logements.json"
 import imgBannerHeader from "../../assets/img-banner.png"
 
