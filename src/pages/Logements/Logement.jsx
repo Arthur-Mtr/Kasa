@@ -27,9 +27,7 @@ function Logement() {
                     description={logement.description} 
                     equipments={logement.equipments}/>
                     
-            <div className="logement-collapse">
-
-            </div>
+                    
         </section>
     )
 }
